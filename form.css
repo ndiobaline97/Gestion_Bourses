@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(imgs/img1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.form{
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    box-sizing: border-box;
+    background-color: #fa983a ;
+    transform: translate(-50%, -50%);
+    padding: 42px;
+    border-radius:15px;
+    font-size: 8px;
+    
+}
+.form p{ 
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+form #mat,#nom,#prenom,#nais,#email,#tel,#pet-select,#identifiant{
+    border-radius:10px;
+
+}
+.titre{
+    margin: 2px;
+    padding: 0 0 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
